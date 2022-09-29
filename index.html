@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YAKOYO - Home</title>
+    <script
+      src="https://kit.fontawesome.com/ea3bde8322.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <!-- SECTION ONE -->
+    <div class="header" id="section-0">
+      <div class="nav">
+        <i class="fa-sharp fa-solid fa-bars openMenu"></i>
+        <i class="fa-solid fa-xmark closeMenu"></i>
+        <h1 class="big-logo">YA<span>KO</span><small>YO</small></h1>
+        <h1 class="small-logo">Y<span>K</span>Y</h1>
+        <ul>
+          <li>
+            <a href="#section-0" class="nav--link"
+              ><i class="fa-solid fa-house"></i>
+              <p class="text">Home</p></a
+            >
+          </li>
+          <li>
+            <a href="#section-1" class="nav--link"
+              ><i class="fa-solid fa-book"></i>
+              <p class="text1">About</p></a
+            >
+          </li>
+          <li>
+            <a href="" class="nav--link"
+              ><i class="fa-solid fa-file"></i>
+              <p class="text2">Order</p></a
+            >
+          </li>
+          <li>
+            <a href="" class="nav--link"
+              ><i class="fa-solid fa-folder"></i>
+              <p class="text3">History</p></a
+            >
+          </li>
+          <li>
+            <a href="" class="nav--link"
+              ><i class="fa-solid fa-phone"></i>
+              <p class="text4">Contact</p></a
+            >
+          </li>
+          <div class="link-active"></div>
+        </ul>
+      </div>
+      <div class="body">
+        <h1>
+          Order Your Favorite Meal <br />
+          and get 
+          Delivery in 5minutes
+        </h1>
+        <div class="order">
+          <span class="span1"><img src="images/amala.webp" alt="amala" /></span>
+          <span class="span2"
+            ><img src="images/payment.png" alt="payment"
+          /></span>
+          <span class="span3"
+            ><img src="images/delivery.jpg" alt="delivery"
+          /></span>
+          <span class="span4"
+            ><img src="images/eating.jpg" alt="happy customer"
+          /></span>
+        </div>
+        <div class="process">
+          <span
+            >Place Order<i class="fa-solid fa-arrow-right"></i
+            >Make Payment<i class="fa-solid fa-arrow-right"></i>We Deliver<i
+                class="fa-solid fa-arrow-right"
+              ></i>You're Happy</span
+          ></i>
+        </div>
+          <button class="btn">Order Now &rarr;</button>
+      
+      </div>
+
+    </div>
+
+    <!-- SECTION TWO -->
+    <div class="about" id="section-1">
+        <h1>What Do you want to eat?</h1>
+<div class="container">
+    <div class="amala">
+        <h3>Amala with Ewedu & Gbegiri</h3>
+    </div>
+    <div class="pounded-yam">
+        <h3>Pounded Yam with egusi soup</h3>
+    </div>
+    <div class="jollof-rice">
+        <h3>Jollof Rice & chicken</h3>
+    </div>
+    <div class="fried-rice">
+        <h3>Jollof & fried rice with chicken</h3>
+    </div>
+    <div class="beans">
+        <h3>White rice & beans with fried fish and dodo</h3>
+    </div>
+    <div class="snacks">
+        <h3>Order for your favorite snacks</h3>
+    </div>
+    <div class="yam">
+        <h3>Yam and egg sauce</h3>
+    </div>
+    <div class="ofada">
+        <h3>Ofada rice and sauce</h3>
+    </div>
+    <div class="ewa">
+        <h3>Ewa Agoyin & Agege Bread</h3>
+    </div>
+</div>
+    </div> <hr>
+    <!-- SECTION THREE -->
+    <div class="place-order" id="section-2">
+      <h1>Place order now!</h1>
+      <form action="https://formsubmit.co/3dc881b6c25766a0a9ff55804b3311a7" method="POST">
+        <h2>Select Menu</h2> <hr>
+       <label for="select">Swallow
+        <select name="Select Menu" class="select" id="select-0">
+          <option value="0" selected>Select Menu</option>
+          <option value="200">amala</option>
+          <option  value="300">Pounded Yam</option>
+          <option  value="250">Semovita</option>
+          <option  value="400">Eba</option>
+        </select>
+       </label> <hr>
+       <label for="others">Other Dishes
+        <select id="select-1" class="select" name="Other Dishes">
+          <option value="0" >Select Menu</option>
+          <option  value="500">Jollof Rice</option>
+          <option  value="550">Fried Rice</option>
+          <option  value="900">Jollof Rice & Fried Rice</option>
+          <option value="700">Ofada Rice</option>
+          <option  value="400">Fried Yam</option>
+          <option  value="580">Boiled Yam</option>
+          <option value="600">Rice & Beans</option>
+          <option  value="800">Ewa Agoyin</option>
+        </select>
+       </label> <hr>
+       <label for="Soup">Soup
+        <select name="soup" class="select" id="select-2">
+          <option value="0">Select Menu</option>
+          <option value="300">Ewedu & Gbegiri with Stew</option>
+          <option value="300">Egusi</option>
+          <option value="300">Efo Riro</option>
+          <option value="300">Ogbono</option>
+        </select>
+       </label> <hr>
+       <label for="accessories">Accessories
+        <select name="accessories" class="select" id="select-3">
+          <option value="0">Select Menu</option>
+          <option value="500">Cow Meat</option>
+          <option value="700">Goat Meat</option>
+          <option value="1200">Chicken</option>
+          <option value="1500">Turkey</option>
+          <option value="300">Ponmo</option>
+          <option value="800">Fish</option>
+        </select>
+       </label> <hr>
+       <label for="other-accessories">Others
+        <select name="other accessories" id="select-4" class="select">
+          <option value="0">Select Menu</option>
+          <option value="350">Dodo</option>
+          <option value="400">Salad</option>
+          <option value="400">Coleslaw</option>
+          <option value="500">Bread</option>
+        </select>
+       </label> <hr>
+       <!-- <label for="snacks">Snacks
+        <select name="snacks" id="select-5" class="select">
+          <option value="">Select Menu</option>
+          <option value="400">Meat-Pie</option>
+          <option value="450">Chicken-Pie</option>
+          <option value="1500">Chin-Chin</option>
+          <option value="300">Donut</option>
+        </select>
+       </label> <hr> -->
+       <input type="text" required name="name" placeholder="Receiver Name">
+       <input type="email" name="Email" placeholder="test@mail.com">
+       <input type="tel" required name="Phone" placeholder="Phone no.">
+       <input type="text" required name="Address" placeholder="Delivery address">
+     <hr>
+     <button class="btn make-payment-btn">Proceed To Payment &rarr;</button>
+      <div class="pay make-payment">
+        <h3>Transfer Payment here</h3>
+        <hr>
+        <label class="label" for="account details">Account Number
+         <input type="text" class="disabled" disabled name="account details" value="1234882835">
+        </label>
+        <label class="label" for="account details">Bank Name
+         <input type="text" class="disabled" disabled name="bank name" value="Candie Bank">
+        </label>
+        <label class="label" for="account details">Account Name
+         <input type="text" class="disabled" disabled name="account name" value="Mr Candie">
+        </label>
+        <label class="label" for="amount">Total Amount
+         <input type="number" class="disabled total-amount" name="Total" value="" disabled>
+        </label>
+       <label class="label" for="receipt">Evidence Of Payment
+         <input type="file" class="disabled" name="receipt" required>
+       </label> <hr>
+       <input type="hidden" name="_autoresponse" value="Your Order Has Been Received. You Will Get A call From One Of Our Agents Shortly!. Thanks For Patronizing Us">
+       <button type="submit" id="btn-submit" class="btn">Complete Order &rarr;</button>
+      </div>
+      </form>
+    </div> <hr>
+    <footer id="section-4">
+      <div class="contact-links">
+        <ul>
+          <li><a href=""><i class="fa-brands fa-whatsapp"></i></a></li>
+          <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+          <li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+          <li><a href=""><i class="fa-solid fa-phone"></i></a></li>
+        </ul>
+      </div>
+      <p>YAKOYO ~ Candie &copy 2022</p>
+    </footer>
+    <div class="overlay hidden"></div>
+  </body>
+</html>
